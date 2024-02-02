@@ -74,8 +74,17 @@ destinationAirportTraffic = (
 )
 
 airportWithMostTraffic = (
-    originAirportTraffic.join(destinationAirportTraffic, originAirportTraffic.Origin_airport == destinationAirportTraffic.Destination_airport)
-    .select(originAirportTraffic.Origin_airport, (_col("Origin_airport_Traffic") + _col("Destination_airport_Traffic")).alias("Airport_Flight_Traffic"))
+    originAirportTraffic.join(
+        destinationAirportTraffic,
+        originAirportTraffic.Origin_airport
+        == destinationAirportTraffic.Destination_airport,
+    )
+    .select(
+        originAirportTraffic.Origin_airport,
+        (_col("Origin_airport_Traffic") + _col("Destination_airport_Traffic")).alias(
+            "Airport_Flight_Traffic"
+        ),
+    )
     .orderBy(_desc("Airport_Flight_Traffic"))
 )
 
@@ -96,8 +105,18 @@ destinationAirportPassengerNum = (
 )
 
 airportWithMostPassengerFootFall = (
-    originAirportPassengerNum.join(destinationAirportPassengerNum, originAirportPassengerNum.Origin_airport == destinationAirportPassengerNum.Destination_airport)
-    .select(originAirportPassengerNum.Origin_airport, (_col("Origin_airport_Passenger_Num") + _col("Destination_airport_Passenger_Num")).alias("Total_Passenger_Footfall"))
+    originAirportPassengerNum.join(
+        destinationAirportPassengerNum,
+        originAirportPassengerNum.Origin_airport
+        == destinationAirportPassengerNum.Destination_airport,
+    )
+    .select(
+        originAirportPassengerNum.Origin_airport,
+        (
+            _col("Origin_airport_Passenger_Num")
+            + _col("Destination_airport_Passenger_Num")
+        ).alias("Total_Passenger_Footfall"),
+    )
     .orderBy(_desc("Total_Passenger_Footfall"))
 )
 
