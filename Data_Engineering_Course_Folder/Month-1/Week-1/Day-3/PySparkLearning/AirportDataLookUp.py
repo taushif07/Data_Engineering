@@ -47,7 +47,7 @@ occupancyRate = (
 
 occupancyRate.show()
 
-# Find the Number of Flights for Long Distance Journeys
+# Question 6: Find the Number of Flights for Long Distance Journeys
 
 numOfFlightLongDistJourney = (
     df.withColumn(
@@ -70,7 +70,7 @@ numOfFlightLongDistJourney = (
 
 numOfFlightLongDistJourney.show()
 
-# Find the Average Distances for Routes with Most Flights
+# Question 7 : Find the Average Distances for Routes with Most Flights
 
 avgDistForMostFlights = (
     df.withColumn(
