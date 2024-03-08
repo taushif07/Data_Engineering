@@ -1,0 +1,180 @@
+[2024-03-04T19:08:18.727+0530] {processor.py:161} INFO - Started process (PID=136695) to work on /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-04T19:08:18.728+0530] {processor.py:830} INFO - Processing file /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-03-04T19:08:18.729+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:08:18.729+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-04T19:08:18.738+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:08:18.737+0530] {dagbag.py:350} ERROR - Failed to import: /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/home/taushif/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/home/taushif/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/taushif/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/taushif/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 591, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-03-04T19:08:18.738+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-04T19:08:18.754+0530] {processor.py:183} INFO - Processing /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.030 seconds
+[2024-03-04T19:09:18.576+0530] {processor.py:161} INFO - Started process (PID=137403) to work on /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-04T19:09:18.576+0530] {processor.py:830} INFO - Processing file /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-03-04T19:09:18.577+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:09:18.577+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-04T19:09:18.589+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:09:18.588+0530] {dagbag.py:350} ERROR - Failed to import: /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/home/taushif/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/home/taushif/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/taushif/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/taushif/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 591, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-03-04T19:09:18.590+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-04T19:09:18.605+0530] {processor.py:183} INFO - Processing /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.032 seconds
+[2024-03-04T19:10:24.298+0530] {processor.py:161} INFO - Started process (PID=138447) to work on /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-04T19:10:24.304+0530] {processor.py:830} INFO - Processing file /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-03-04T19:10:24.305+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:10:24.305+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-04T19:10:24.318+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:10:24.317+0530] {dagbag.py:350} ERROR - Failed to import: /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/home/taushif/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/home/taushif/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/taushif/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/taushif/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 591, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-03-04T19:10:24.318+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-04T19:10:24.328+0530] {processor.py:183} INFO - Processing /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.034 seconds
+[2024-03-04T19:11:28.734+0530] {processor.py:161} INFO - Started process (PID=139376) to work on /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-04T19:11:28.735+0530] {processor.py:830} INFO - Processing file /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-03-04T19:11:28.736+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:11:28.735+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-04T19:11:28.745+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:11:28.744+0530] {dagbag.py:350} ERROR - Failed to import: /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/home/taushif/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/home/taushif/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/taushif/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/taushif/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 591, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-03-04T19:11:28.745+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-04T19:11:28.756+0530] {processor.py:183} INFO - Processing /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.024 seconds
+[2024-03-04T19:12:24.265+0530] {processor.py:161} INFO - Started process (PID=139975) to work on /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-04T19:12:24.270+0530] {processor.py:830} INFO - Processing file /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-03-04T19:12:24.272+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:12:24.271+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-04T19:12:24.284+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:12:24.283+0530] {dagbag.py:350} ERROR - Failed to import: /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/home/taushif/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/home/taushif/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/taushif/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/taushif/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 591, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-03-04T19:12:24.284+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-04T19:12:24.296+0530] {processor.py:183} INFO - Processing /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.034 seconds
+[2024-03-04T19:13:10.630+0530] {processor.py:161} INFO - Started process (PID=140481) to work on /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-04T19:13:10.637+0530] {processor.py:830} INFO - Processing file /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-03-04T19:13:10.639+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:13:10.638+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-04T19:13:10.655+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:13:10.653+0530] {dagbag.py:350} ERROR - Failed to import: /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/home/taushif/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/home/taushif/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/taushif/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/taushif/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 591, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-03-04T19:13:10.655+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-04T19:13:10.668+0530] {processor.py:183} INFO - Processing /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.042 seconds
+[2024-03-04T19:14:00.825+0530] {processor.py:161} INFO - Started process (PID=140949) to work on /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-04T19:14:00.831+0530] {processor.py:830} INFO - Processing file /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-03-04T19:14:00.832+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:14:00.832+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-04T19:14:00.858+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:14:00.855+0530] {dagbag.py:350} ERROR - Failed to import: /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/home/taushif/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/home/taushif/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/taushif/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/taushif/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 591, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-03-04T19:14:00.858+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-04T19:14:00.878+0530] {processor.py:183} INFO - Processing /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.059 seconds
+[2024-03-04T19:14:54.010+0530] {processor.py:161} INFO - Started process (PID=141444) to work on /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-04T19:14:54.012+0530] {processor.py:830} INFO - Processing file /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-03-04T19:14:54.013+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:14:54.013+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-04T19:14:54.034+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:14:54.032+0530] {dagbag.py:350} ERROR - Failed to import: /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/home/taushif/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/home/taushif/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/taushif/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/taushif/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 591, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-03-04T19:14:54.035+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-04T19:14:54.053+0530] {processor.py:183} INFO - Processing /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.049 seconds
+[2024-03-04T19:15:44.158+0530] {processor.py:161} INFO - Started process (PID=141909) to work on /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-04T19:15:44.164+0530] {processor.py:830} INFO - Processing file /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-03-04T19:15:44.164+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:15:44.164+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-04T19:15:44.173+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:15:44.171+0530] {dagbag.py:350} ERROR - Failed to import: /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/home/taushif/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/home/taushif/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/taushif/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/taushif/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 591, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-03-04T19:15:44.173+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-04T19:15:44.184+0530] {processor.py:183} INFO - Processing /home/taushif/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.028 seconds
